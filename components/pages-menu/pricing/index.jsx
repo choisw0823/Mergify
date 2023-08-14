@@ -1,7 +1,7 @@
 import Breadcrumb from "../../common/Breadcrumb";
 import LoginPopup from "../../common/form/login/LoginPopup";
-import FooterDefault from "../../footer/common-footer";
-import DefaulHeader from "../../header/DefaulHeader";
+import Footer from "../../home/Footer";
+import Header from "../../home/Header";
 import MobileMenu from "../../header/MobileMenu";
 import Pricing from "../../pricing/Pricing";
 
@@ -14,7 +14,7 @@ const index = () => {
       <LoginPopup />
       {/* End Login Popup Modal */}
 
-      <DefaulHeader />
+      <Header />
       {/* <!--End Main Header --> */}
 
       <MobileMenu />
@@ -38,7 +38,7 @@ const index = () => {
       </section>
       {/* <!-- End Pricing Section --> */}
 
-      <FooterDefault footerStyle="alternate5" />
+      <Footer/>
       {/* <!-- End Main Footer --> */}
     </>
   );

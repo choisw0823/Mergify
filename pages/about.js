@@ -5,7 +5,7 @@ import About from "../components/pages-menu/about";
 const index = () => {
   return (
     <>
-      <Seo pageTitle="About" />
+      <Seo pageTitle="소개" />
       <About />
     </>
   );

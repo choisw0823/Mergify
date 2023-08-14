@@ -11,7 +11,7 @@ const Funfact = () => {
       startCount: "0",
       endCount: "4",
       endPointText: "M",
-      meta: "4 million daily active users",
+      meta: "N 개의 M&A 진행",
       animationDelay: "0",
     },
     {
@@ -19,7 +19,7 @@ const Funfact = () => {
       startCount: "0",
       endCount: "12",
       endPointText: "k",
-      meta: "Over 12k open job positions",
+      meta: "N개 회사 등록",
       animationDelay: "100",
     },
     {
@@ -27,7 +27,7 @@ const Funfact = () => {
       startCount: "0",
       endCount: "20",
       endPointText: "M",
-      meta: "Over 20 million stories shared",
+      meta: "M&A 성약까지 N일",
       animationDelay: "200",
     },
   ];

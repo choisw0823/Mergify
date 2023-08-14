@@ -1,3 +1,6 @@
+/*
+  Data for Footer Content
+*/
 module.exports = [
   {
     id: 1,

@@ -25,8 +25,8 @@ const About7 = () => {
               <div data-aos="fade-right">
                 <div className="sec-title">
                   <h2 className="fw-700">
-                    Build a good
-                    <br /> resume
+                    풍부한 M&A
+                    <br /> 데이터
                   </h2>
                   <div className="text mt-30">
                     An efficient resume should promote your abilities and
@@ -36,7 +36,7 @@ const About7 = () => {
                     skills to use in the organization.
                   </div>
                 </div>
-                <Link href="/job-list-v9" className="theme-btn -blue-light">
+                <Link href="/job-list-v9" className="theme-btn -blue">
                   Discover More
                 </Link>
               </div>

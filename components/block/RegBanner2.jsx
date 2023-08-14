@@ -1,20 +1,18 @@
 import Link from "next/link";
 
-const RegBanner2 = () => {
+const RegBanner = () => {
   const regBannerContent = [
     {
       id: 1,
-      name: "Employers",
-      text: ` Sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt. Labore et dolore nostrud exercitation.`,
+      name: "인수자",
+      text: ` 기업을 인수하려면 ~`,
       avatar: "images/resource/employ.png",
       bannerClass: "banner-style-one",
     },
     {
       id: 2,
-      name: "Candidate",
-      text: ` Sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt. Labore et dolore nostrud exercitation.`,
+      name: "피인수자",
+      text: ` 기업을 판매하려면 ~`,
       avatar: "images/resource/candidate.png",
       bannerClass: "banner-style-two",
     },
@@ -44,4 +42,4 @@ const RegBanner2 = () => {
   );
 };
 
-export default RegBanner2;
+export default RegBanner;

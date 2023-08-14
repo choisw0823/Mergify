@@ -180,3 +180,23 @@ Buttons Styles
   line-height: 21px;
   border-radius: 5px;
 }
+
+
+/* Btn Style One */
+.btn-style-nine {
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: rgb(57, 179, 213);
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 18px 35px 15px 35px;
+}
+
+.btn-style-one:hover {
+  color: #ffffff;
+  background-color: var(--primary-hover-bg-color);
+}

@@ -15,8 +15,8 @@ const About6 = () => {
               <div className="inner-column -no-padding" data-aos="fade-right">
                 <div className="sec-title">
                   <h2 className="fw-700">
-                    Search for
-                    <br /> jobs
+                    빠른 중소기업
+                    <br /> M&A
                   </h2>
                   <div className="text mt-30">
                     To start searching for jobs, you can attend job fairs online

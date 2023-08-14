@@ -1,13 +1,12 @@
 import LoginPopup from "../../common/form/login/LoginPopup";
-import Partner from "../../common/partner/Partner";
-import FooterDefault from "../../footer/common-footer";
-import DefaulHeader from "../../header/DefaulHeader";
+import Partner from "../../Partner/Partner";
+import Footer from "../../home/Footer";
+import Header from "../../home/Header";
 import MobileMenu from "../../header/MobileMenu";
 import Funfact from "../../fun-fact-counter/Funfact";
 import ImgBox from "./ImgBox";
 import IntroDescriptions from "./IntroDescriptions";
-import CallToAction2 from "../../call-to-action/CallToAction2";
-import Testimonial2 from "../../testimonial/Testimonial2";
+// import CallToAction2 from "../../call-to-action/CallToAction2";
 import Block1 from "../../block/Block1";
 import Breadcrumb from "../../common/Breadcrumb";
 
@@ -20,7 +19,7 @@ const index = () => {
       <LoginPopup />
       {/* End Login Popup Modal */}
 
-      <DefaulHeader />
+      <Header />
       {/* <!--End Main Header --> */}
 
       <MobileMenu />
@@ -46,41 +45,7 @@ const index = () => {
       </section>
       {/* <!-- End About Section Three --> */}
 
-      <CallToAction2 />
-      {/* <!-- End CallToAction2 --> */}
 
-      <section className="testimonial-section-two">
-        <div className="container-fluid">
-          <div className="testimonial-left">
-            <img src="images/resource/testimonial-left.png" alt="testimonial" />
-          </div>
-          {/* End left img group */}
-
-          <div className="testimonial-right">
-            <img
-              src="images/resource/testimonial-right.png"
-              alt="testimonial"
-            />
-          </div>
-          {/* End right img group */}
-
-          <div className="sec-title text-center">
-            <h2>Testimonials From Our Customers</h2>
-            <div className="text">
-              Lorem ipsum dolor sit amet elit, sed do eiusmod tempor
-            </div>
-          </div>
-          {/* <!-- Sec Title --> */}
-
-          <div className="carousel-outer" data-aos="fade-up">
-            <div className="testimonial-carousel">
-              <Testimonial2 />
-            </div>
-            {/* <!-- Testimonial Carousel --> */}
-          </div>
-        </div>
-      </section>
-      {/* <!-- End Testimonial Section --> */}
 
       <section className="work-section style-two">
         <div className="auto-container">
@@ -107,7 +72,7 @@ const index = () => {
       </section>
       {/* <!-- End Clients Section--> */}
 
-      <FooterDefault />
+      <Footer />
       {/* <!-- End Main Footer --> */}
     </>
   );

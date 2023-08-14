@@ -1,12 +1,15 @@
+import Link from "next/link";
+
 const LoginRegBanner = () => {
   return (
     <section
       className="cta -type-2"
-      style={{ backgroundImage: "url(images/index-16/cta-2/bg.png)" }}
+      // style={{ backgroundImage: "url(images/icons/bg-1.png)" }}
     >
       <div className="auto-container">
         <div className="row grid-base justify-content-between">
           <div className="col-lg-5 col-md-6">
+          <Link href="/shop/cart" >
             <div className="cta-item">
               <div className="icon-wrap">
                 <div className="icon icon-case"></div>
@@ -14,34 +17,35 @@ const LoginRegBanner = () => {
               {/* End icon-wrap */}
 
               <div className="content">
-                <div className="title">I&apos;m an Employer</div>
+                <div className="title">피인수자</div>
                 <div className="text">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry but also the leap into electronic
-                  typesetting
+                 피인수자 기업 판매
                 </div>
               </div>
+
               {/* End content */}
             </div>
+            </Link>
           </div>
           {/* End .col */}
 
           <div className="col-lg-5 col-md-6">
+          <Link href="/shop/cart" >
             <div className="cta-item -blue">
               <div className="content">
-                <div className="title">I&apos;m an Candidates</div>
+                <div className="title">인수자 </div>
                 <div className="text">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry but also the leap into electronic
-                  typesetting
+                  인수자 기업 구매
                 </div>
               </div>
+
               {/* End .content */}
 
               <div className="icon-wrap">
                 <div className="icon icon-contact"></div>
               </div>
             </div>
+            </Link>
           </div>
           {/* End .col */}
         </div>

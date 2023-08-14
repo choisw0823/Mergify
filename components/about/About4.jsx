@@ -18,11 +18,9 @@ const About4 = () => {
       <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
         <div className="inner-column" data-aos="fade-left">
           <div className="sec-title">
-            <h2>Millions of Jobs. Find the one that suits you.</h2>
+            <h2>M&A 소개 동영상</h2>
             <div className="text">
-              Search all the open positions on the web. Get your own
-              personalized salary estimate. Read reviews on over 600,000
-              companies worldwide.
+              AI를 기반으로 M&A 거래를 할 수 있습니다.
             </div>
           </div>
           <ul className="list-style-two">
@@ -44,7 +42,7 @@ const About4 = () => {
 
       <div className="image-column col-lg-6 col-md-12 col-sm-12">
         <figure className="image" data-aos="fade-right">
-          <img src="images/resource/image-5.png" alt="popup icon" />
+          <img src="images/background/ban.png" alt="popup icon" />
           <div
             className="play-btn lightbox-image"
             role="button"

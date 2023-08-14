@@ -40,8 +40,8 @@ const About8 = () => {
                 <div className="inner-column -no-padding" data-aos="fade-right">
                   <div className="sec-title">
                     <h2 className="color-blue-dark fw-700">
-                      Perform during your
-                      <br /> interview
+                      인공지능 기반
+                      <br /> M&A
                     </h2>
                   </div>
                   {/* End sec-title */}
@@ -61,7 +61,7 @@ const About8 = () => {
                   </div>
                   {/* blcok item */}
 
-                  <Link href="/job-list-v4" className="theme-btn -blue-light">
+                  <Link href="/job-list-v4" className="theme-btn -blue">
                     Discover More
                   </Link>
                 </div>
