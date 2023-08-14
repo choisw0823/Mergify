@@ -333,6 +333,38 @@ Dashboard
   margin-bottom: 10px;
 }
 
+.dashboard_post {
+  position: relative;
+  background-color: #f5f7fc;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  min-height: 100vh;
+}
+
+.dashboard_post .main-header {
+  background: #ffffff;
+}
+
+.dashboard_post .dashboard-outer {
+  position: relative;
+  padding: 60px 60px 0;
+}
+
+.dashboard_post .upper-title-box {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.dashboard_post .upper-title-box h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  color: #202124;
+  margin-bottom: 10px;
+}
+
+
 .ui-item {
   position: relative;
   height: 130px;
