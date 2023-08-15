@@ -80,9 +80,13 @@ export default [
                 name: "Contact",
                 routePath: "/contact",
             },
+            // {
+            //     name: "상담",
+            //     routePath: "/ask",
+            // },
             {
-                name: "상담",
-                routePath: "/ask",
+                name: "약관",
+                routePath: "/terms",
             },
         ],
     },

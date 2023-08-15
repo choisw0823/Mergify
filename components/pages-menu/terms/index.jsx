@@ -1,9 +1,8 @@
-import Breadcrumb from "../../common/Breadcrumb";
 import LoginPopup from "../../common/form/login/LoginPopup";
 import Footer from "../../home/Footer";
 import Header from "../../home/Header";
 import MobileMenu from "../../header/MobileMenu";
-import Pricing from "../../Pricing/Pricing";
+import TermsText from "./TermsText";
 
 const index = () => {
   return (
@@ -20,23 +19,17 @@ const index = () => {
       <MobileMenu />
       {/* End MobileMenu */}
 
-      <Breadcrumb title="Pricing" meta="Pricing" />
-      {/* <!--End Page Title--> */}
-
-      <section className="pricing-section">
+      <section className="tnc-section">
         <div className="auto-container">
           <div className="sec-title text-center">
-            <h2>Pricing Packages</h2>
-            <div className="text">
-              Lorem ipsum dolor sit amet elit, sed do eiusmod tempor.
-            </div>
+            <h2>Terms and Conditions</h2>
+            <div className="text">Home / Terms and Conditions</div>
           </div>
-          {/* End title */}
-          <Pricing />
-          {/* End .{/* <!--Pricing Tabs--> */}
+          {/* End sec-title */}
+          <TermsText />
         </div>
       </section>
-      {/* <!-- End Pricing Section --> */}
+      {/* <!-- End TNC Section --> */}
 
       <Footer/>
       {/* <!-- End Main Footer --> */}

@@ -198,11 +198,6 @@ const PostBoxForm = () => {
           <input type="text" name="name" placeholder="Melbourne" />
         </div>
 
-        {/* <!-- Input --> */}
-        <div className="form-group col-lg-12 col-md-12">
-          <button className="theme-btn btn-style-three">Search Location</button>
-        </div>
-
 
 
         {/* <!-- Input --> */}
